@@ -4,21 +4,45 @@
 Uma definição de tipo de documento (inglês: document type definition, DTD) é um conjunto de declarações de marcação.
 -->
 
-<html>
+<html lang="pt-br"> 
 	<!-- primeiro filho do html. -->
 	<head>
 		<meta charset="UTF-8"/>
 		<meta name="viewport" content="width:device-width,initial-scale=1.0"/>
-		
-		<title>EXEMPLO</title>
+		<title>Página Básica</title>
 	</head>
 	<body>
 
 		<div class="container">
 
-			
-			<header>
-				<h1 style="text-align: center;font-family:Tahoma, Verdana, sans-serif;">Minha Página</h1>
+			<header class="cabecalho">
+				<h1 style="text-align: center;font-family:Tahoma, Verdana, sans-serif;">Minha Página</h1>			
+			</header>
+				<nav class="menu">
+					<li><a href="./paginas/help.html">Help</a></li>
+					<li><a href="./paginas/contact.html">Contact</a></li>
+					<li><a href="./paginas/about.html">About</a></li>
+				</nav>
+
+			<section class="conteudo">
+				<div>
+					<h2>Sobre mim...</h2>
+					<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum velit debitis,</p>
+				</div>
+				<div>
+					<h2>Skills</h2>
+					<p>Clipper,Visual Basic, Visual FOX-Pro, Cold-Fusion, SAP, SOA, Java, C#, PHP, Ruby, Python, HTML, CSS e JavaScript.</p>
+				</div>
+				<div>
+					<h2>Portfólio</h2>
+					<p>- Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda explicabo autem veniam consequatur tempore, voluptatum voluptas fugiat libero laboriosam nam.
+						<span>Algum projeto aqui. <a href="#">Projeto-1</a></span>
+					</p>
+				</div>
+				</section>
+			</section>
+
+			<footer class="rodape">
 				<nav>
 					<ul>
 						<li> <a href="https://www.fiap.com.br" target="_blank"> FIAP </a></li>
@@ -26,21 +50,11 @@ Uma definição de tipo de documento (inglês: document type definition, DTD) é
 						<li> <a href="https://github.com" target="_blank">GITHUB</a>  </li>
 					</ul>
 				</nav>
-			</header>
+				<p>
+					Todos os direitos reservados &copy; 2024 - Minha Pagina.
+				</p>
+			</footer>
 
-			<section class ="conteudo">
-				<div>
-					<h2>Sobre mim...</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, doloremque velit explicabo nostrum hic maiores, neque, iusto quaerat veritatis reprehenderit commodi beatae fugiat eum architecto quidem vel laborum ipsa! Quas!</p>
-				</div>
-					<div>
-						<h2>Portifólio</h2>
-						<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-						<span>Algum projeto aqui. <a href="#">Projeto-1</a></span>
-						</p>
-					</div>
-
-			</section>
 		</div>
 
 	</body>
