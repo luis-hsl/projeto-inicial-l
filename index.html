@@ -10,27 +10,31 @@ Uma definição de tipo de documento (inglês: document type definition, DTD) é
 		<meta charset="UTF-8"/>
 		<meta name="viewport" content="width:device-width,initial-scale=1.0"/>
 		<title>Página Básica</title>
+
+		<link rel="stylesheet" href="./css/estilo.css">
+
 	</head>
-	<body>
+	<body>      
 
-		<div class="container">
+		<div id="container">
 
-			<header class="cabecalho">
-				<h1 style="text-align: center;font-family:Tahoma, Verdana, sans-serif;">Minha Página</h1>			
-			</header>
-				<nav class="menu">
+			<header id="cabecalho">
+				<h1>Minha Página</h1>
+				
+				<nav id="menu">
 					<ul>
-					<li><a href="./paginas/help.html"><img src="./img/help.png" alt="Circulo com interrogação." width="5%" title="Ajuda"></a></li>
-					<li><a href="./paginas/about.html"><img src="./img/about.png" alt="Circulo com a letra i" width="5%" title="Sobre"></a></li>
-					<li><a href="./paginas/contact.html"><img src="./img/contact.png" alt="Papel com um lápis" width="5%" title="Contato"></a></li>
+						<li class="link"><a href="./paginas/help.html"> <img src="./img/help.png" alt="Interogação em um circulo."></a></li>
+						<li class="link"><a href="./paginas/about.html"><img src="./img/about.png" alt="Letra i em um circulo."></a></li>
+						<li class="link"><a href="./paginas/contact.html"><img src="./img/contact.png" alt="Lapis escrevendo em um balão."></a></li>
 					</ul>
 				</nav>
+
 			</header>
 
-			<section class="conteudo">
+			<section id="conteudo">
 				<div>
 					<h2>Sobre mim...</h2>
-					<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum velit debitis,</p>
+					<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum velit debitis, iste accusamus iusto a aliquam quae aut ipsa magnam dolorum, vero cumque rem maxime delectus laboriosam natus nihil atque consectetur eveniet, repudiandae adipisci ipsam harum. Saepe inventore unde autem necessitatibus ipsam pariatur animi placeat voluptatum quisquam. Possimus officiis, laborum impedit totam iusto excepturi vero facilis, voluptate, omnis quas explicabo esse aliquid nostrum nemo neque. Natus laudantium provident sed assumenda, nemo corrupti, quia cumque, facere optio adipisci mollitia. Rerum ipsum maxime quod, tenetur illum aut! Assumenda quae sapiente minus nesciunt exercitationem veritatis fugit porro accusamus quis libero. Fugiat, nobis cupiditate.</p>
 				</div>
 				<div>
 					<h2>Skills</h2>
@@ -42,9 +46,10 @@ Uma definição de tipo de documento (inglês: document type definition, DTD) é
 						<span>Algum projeto aqui. <a href="#">Projeto-1</a></span>
 					</p>
 				</div>
+				</section>
 			</section>
 
-			<footer class="rodape">
+			<footer id="rodape">
 				<nav>
 					<ul>
 						<li> <a href="https://www.fiap.com.br" target="_blank"> FIAP </a></li>
