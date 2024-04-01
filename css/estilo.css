@@ -52,3 +52,29 @@
         list-style-type: none;
         text-align: center;
     }
+    h1, h2{
+        font-family: serif;
+    }
+    nav a{
+        font-weight: bold;
+    }
+    #container {
+        padding: 20px;
+    }
+    #conteudo{
+        line-height: 1.5;
+    }
+    form{
+        border: 1px solid grey;
+        padding: 10px;
+    }
+    p {
+        color: green;
+    }
+    footer{
+        border-top: 2px solid red;
+    }
+    form button{
+        background-color: blue;
+        color: white;
+    }
